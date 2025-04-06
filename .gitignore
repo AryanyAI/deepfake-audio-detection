@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset files
+data/raw/*.tar
+data/raw/*.tar.gz
+data/raw/*.zip
+data/raw/ASVspoof*
+data/raw/LA_*
+data/processed/
+
+# Model checkpoints and outputs
+models/checkpoints/
+results/
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Project specific
+*.npy
+*.flac
+*.wav
+*.mp3 
+
+#Dataset
+data/raw 
+data/processed
+
+# Personal files not for submission
+INTERVIEW_PREP.md
+Assignment_details.md
+train_in_colab.ipynb
+
+#Recycle
+Recycle.txt
+
