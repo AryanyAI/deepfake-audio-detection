@@ -24,9 +24,9 @@ cd audio-deepfake-detection
 pip install -r requirements.txt
 
 # Download required dataset files (manual step)
-# Download from https://zenodo.org/records/14498691
+# Download from https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset
 # - ASVspoof5_protocols.tar.gz
-# - flac_D_ab.tar
+# - ASVspoof2019_LA_dev.zip
 # Place these files in the data/raw directory
 
 # Run the entire pipeline
@@ -71,6 +71,6 @@ The implementation follows these main steps:
 - **notebooks/**: Training scripts
 
 ## References
-
+- Original ASVspoof 2019 dataset: [ASVspoof 2019](https://datashare.ed.ac.uk/handle/10283/3336)
 - Original ASVspoof5 dataset: [Zenodo](https://zenodo.org/records/14498691)
 - Wang, Xin, et al. "ASVspoof 5: Design, Collection and Validation of Resources for Spoofing, Deepfake, and Adversarial Attack Detection Using Crowdsourced Speech." arXiv preprint arXiv:2502.08857 (2024). 
