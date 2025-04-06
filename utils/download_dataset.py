@@ -63,7 +63,7 @@ def download_asvspoof_2019(data_dir):
     
     print("The ASVspoof dataset URLs are no longer valid through direct download.")
     print("Please follow these steps to download the dataset manually:")
-    print("1. Visit: https://zenodo.org/records/14498691")
+    print("1. Visit: https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset")
     print("2. Download the dataset files you need (LA_T.zip, LA_D.zip, LA_E.zip)")
     print("3. Download the protocols: ASVspoof2019_LA_cm_protocols.zip")
     print(f"4. Place these files in: {data_dir}")
@@ -72,11 +72,11 @@ def download_asvspoof_2019(data_dir):
     print("https://datashare.ed.ac.uk/handle/10283/3336")
     
     # Ask if user wants to proceed with manual download
-    print("\nWould you like to open the Zenodo page in your browser? (yes/no)")
+    print("\nWould you like to open the Kaggel page in your browser? (yes/no)")
     response = input().lower()
     if response == 'yes':
         import webbrowser
-        webbrowser.open('https://zenodo.org/records/14498691')
+        webbrowser.open('https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset')
 
 def download_asvspoof_sample(data_dir):
     """
@@ -94,14 +94,14 @@ def download_asvspoof_sample(data_dir):
     
     print("The ASVspoof dataset URLs are no longer valid through direct download.")
     print("Please follow these steps to download the dataset manually:")
-    print("1. Visit: https://zenodo.org/records/14498691")
+    print("1. Visit: https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset")
     print("2. Download the following files:")
     print("   - LA_D.zip (Development set)")
     print("   - ASVspoof2019_LA_cm_protocols.zip (Protocols)")
     print(f"3. Place these files in: {data_dir}")
     print(f"4. Extract them to: {sample_dir}")
     print("\nAlternatively, you can download a smaller sample dataset from Kaggle:")
-    print("https://www.kaggle.com/datasets/birdy654/asvspoof-2019")
+    print("https://zenodo.org/records/14498691")
 
 def main():
     """

@@ -286,11 +286,12 @@ These achievements position the system as a valuable tool in the ongoing effort 
 ## 8. References
 
 1. ASVspoof 2019: A large-scale public database of synthetic, converted and replayed speech
-2. Add-Margin Softmax for Face Verification
-3. Rawnet2: Layer-wise architecture search for audio spoofing detection
-4. AASIST: Audio Anti-Spoofing using Integrated Spectro-Temporal Graph Attention Networks
-5. GAT: Graph Attention Networks
-6. Audio Deepfake Detection GitHub Repository: https://github.com/media-sec-lab/Audio-Deepfake-Detection
+2. ASVspoof 2019 Dataset on Kaggle (Source Used): [https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset](https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset)
+3. Add-Margin Softmax for Face Verification
+4. Rawnet2: Layer-wise architecture search for audio spoofing detection
+5. AASIST: Audio Anti-Spoofing using Integrated Spectro-Temporal Graph Attention Networks
+6. GAT: Graph Attention Networks
+7. Audio Deepfake Detection GitHub Repository: https://github.com/media-sec-lab/Audio-Deepfake-Detection
 
 ## Appendix: Implementation Details
 

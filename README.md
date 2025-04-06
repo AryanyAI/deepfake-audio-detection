@@ -17,7 +17,7 @@ The detection system uses a combination of convolutional neural networks and att
 
 ```
 # Clone the repository
-git clone https://github.com/yourusername/audio-deepfake-detection.git
+git clone https://github.com/AryanyAI/deepfake-audio-detection.git
 cd audio-deepfake-detection
 
 # Install dependencies
@@ -35,12 +35,16 @@ pip install -r requirements.txt
 
 ## Dataset
 
-This project uses the ASVspoof5 dataset. Due to the size of the full dataset, the implementation is optimized to work with a subset:
+This project uses the ASVspoof 2019 Logical Access (LA) dataset. The implementation is optimized to work with a subset, specifically the development set (`LA_dev`).
 
-- Development set (`flac_D_ab.tar`) - One part of the development set (6.6 GB)
-- Protocol files (`ASVspoof5_protocols.tar.gz`) - Contains labels and evaluation protocols (20.7 MB)
+- **Source Used:** ASVspoof 2019 Dataset on Kaggle: [https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset](https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset)
+- **Files Required for this Project:**
+    - `ASVspoof2019_LA_dev.zip` (or extracted equivalent containing `.flac` files)
+    - `ASVspoof2019_LA_cm_protocols.zip` (or extracted equivalent containing `.trl.txt` label files)
 
-These files can be downloaded from [Zenodo](https://zenodo.org/records/14498691).
+These files should be downloaded from the Kaggle link above and placed/extracted into the `data/raw` directory according to the structure expected by `utils/prepare_dataset.py` and `utils/preprocess_data.py` (typically placing the protocol `.txt` files in `data/raw/protocols/` and the audio `.flac` files in a path like `data/raw/LA_dev/.../flac/`).
+
+*Note: Other sources like Zenodo also host versions of this dataset, but the Kaggle source was used for this specific implementation run.*
 
 ## System Requirements
 
